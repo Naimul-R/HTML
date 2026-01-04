@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="POST">
+        <h1 style="text-align: center;">Sing up form</h1>
+        <hr>
+        <br>
+        <label for="User">Name: </label>
+        <input type="Text" id="User" name="User" placeholder="Usr Name">
+        <label for="email"> Email: </label>
+        <input type="email" id="email" name="User mail" placeholder="User Mail" required>
+        <br><br>
+        <label for="pass"> Password </label>
+        <input type="password" id="pass" name="Password" placeholder="Password" required>
+        <br><br>
+        <label for="phn"> Phone: </label><br>
+        <select name="code">
+            <option value="+880"> +880 </option>
+            <option value="+1"> +1 </option>
+            <option value="+86"> +86 </option>
+        </select>
+        <input type="number" id="phn" name="Phone" placeholder="123456789" required>
+        <br><br>
+        <!--<label for="country"> Country </label>
+        <input list="con"
+        <datalist id="con">
+            <option value="Bangladesh"></option>
+            <option value="India"></option>
+            <option value="China"></option>
+            <option value="Pakistan"></option>
+        </datalist>-->
+        Gender:
+        <input type="radio" id="male" name="Gender" value="Male">
+        <label for="Male"> Male</label>
+        <input type="radio" id="female" name="Gender" value="female">
+        <label for="female"> female</label>
+        <br><br>
+        <label for="Date"> Date of Birth </label>
+        <input type="Date" id="Date" name="DOB">
+        <br><br>
+        <label for="time">Time </label>
+        <input type="time" id="time" name="tm">
+        <br><br>
+        <label for="colors"> Colors </label>
+        <input type="color" id="colors" name="col">
+        <br><br>
+        <label for="file"> File </label>
+        <input type="file" id="file" name="fi">
+        <br><br>
+        <input type="checkbox" id="single" name="sgl">
+        <label for="single"> I'm single </label>
+        <input type="checkbox" id="mingle" name="mgl">
+        <label for="mingle">I'm mingle </label>
+        <br><br>
+        <input type="submit" value="Send">
+        <input type="reset" value="reset">
+    </form>
+</body>
+</html>
